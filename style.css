@@ -1,0 +1,118 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+html,body{
+   min-height: 100vh;
+   font-size: 1em;
+}
+
+:root{
+   --fonte0: 'Passion One', cursive;
+   --fonte1:'Sriracha', cursive;
+   --fonte2: Arial, Helvetica, sans-serif;
+}
+
+/*HEADER*/
+
+header{
+   color: white;
+   background-color: black;
+   text-align: center;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+header h1{
+   font-family: var(--fonte0);
+   font-size: 7vw;
+   font-variant: small-caps;
+}
+
+a{
+   font-family: var(--fonte2);
+   font-weight: 600;
+   text-decoration: none;
+   color: white;
+}
+
+header p{
+   font-family: var(--fonte2);
+   font-weight: 100;
+   font-size: 1.5vw;
+}
+
+
+/*MAIN*/
+
+main{
+ background-color: darkgray;
+}
+
+section{
+   padding-top: 10vh;
+   padding-bottom: 10vh;
+   line-height: 5vw;
+   padding-left: 10%;
+}
+
+section p{
+   font-size: 3.0vw;
+   font-family: var(--fonte1);
+}
+
+section.normal {
+   background-color: white;
+}
+
+section.imagem1 p{
+   display: inline-block;
+   padding: 20px;
+   background-color: rgba(0, 0, 0, 0.349);
+   text-shadow: 2px 1px 1px black;
+}
+
+section.imagem1{
+   color: white;
+   padding-bottom: 200px;
+   background: black url(imagens/background001.jpg) center right no-repeat fixed;
+   background-size: cover;
+   box-shadow: inset 6px 6px 13pc 0px rgba(0, 0, 0, 0.288); 
+   /*background-image: url(imagens/background001.jpg);
+   background-position: center right;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;*/
+
+}
+
+section.imagem2 p{
+   display: inline-block;
+   padding: 20px;
+   background-color: rgba(0, 0, 0, 0.301);
+   text-shadow: 2px 1px 1px black;
+}
+
+section.imagem2{
+   color: white;
+   padding-bottom: 200px;
+   background: black url(imagens/background002.jpg) center right no-repeat fixed;
+   background-size: cover;
+   box-shadow: inset 6px 6px 13pc 0px rgba(0, 0, 0, 0.288); /*sombra pra dentro*/
+}
+
+
+/*FOOTER*/
+
+footer{
+   font-family: var(--fonte2);
+   font-size: 14px;
+   font-weight: 500;
+   text-align: center;
+   color: white;
+   background-color: black;
+   padding: 15px;
+   margin-top: 20px;
+}
